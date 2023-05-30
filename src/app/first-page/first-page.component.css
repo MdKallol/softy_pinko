@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav_bar {
+    background-image: url("../../assets/banner-bg.png");
+    }
+    .nav_bar {
+        @apply w-full
+        h-full
+        bg-no-repeat
+        bg-cover
+        bg-center
+    }
+    
+}
